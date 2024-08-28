@@ -1,0 +1,16 @@
+
+#foreach ($var in [1, 2, 3])
+	iterate
+#end
+
+#foreach ($var in [1..10])
+	iterate
+#end
+
+#foreach ($var in $obj.getList())
+	iterate
+#end
+
+#foreach ($var in ${obj.getList()})
+	iterate
+#end

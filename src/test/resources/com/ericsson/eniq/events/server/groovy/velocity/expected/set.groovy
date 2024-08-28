@@ -1,0 +1,14 @@
+out("\n");out("\n");
+set("ref",  "simple"); 
+out("\n");out("\n");
+set("ref", [1,2,"test"]); 
+out("\n");out("\n");
+set("ref",  "${$anotherRef}"); 
+out("\n");out("\n");
+set("ref",  "${$anotherRef.getIt()}"); 
+out("\n");out("\n");
+set("ref",  "prefix${$anotherRef} postfix"); 
+out("\n");out("\n");
+set("ref",  "prefix${$anotherRef.getIt()}postfix${$yetAnother}"); 
+out("\n");out("\n");
+set("ref", [1,$ref1,"${$ref2}","${$ref3}","prefix${$anotherRef.getIt()}postfix${$yetAnother}",4]); 

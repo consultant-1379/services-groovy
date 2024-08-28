@@ -1,0 +1,6 @@
+
+#if (1 == 1)
+	do something
+#else
+	do something else
+#end
